@@ -11,8 +11,10 @@ Easy to install as a Chrome Extension
 
 ### 1.Clone the repository
 
-  ```git clone https://github.com/FathimaShamila/Prayer_Times_Chrome_Extension.git
-     cd prayer-times-extension
+  ```
+git clone https://github.com/FathimaShamila/Prayer_Times_Chrome_Extension.git
+cd prayer-times-extension
+```
 
 ### 2.Set up Python environment
 
