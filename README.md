@@ -39,10 +39,10 @@ python app.py
 
 ### 5. Load the extension in Chrome
 
-1. Open Chrome -> chrome://extensions/
-2. Enable Developer mode(top-right)
-3. Click Load unpacked
-4. Select the folder containing extension files.
+-  Open Chrome -> chrome://extensions/
+- Enable Developer mode(top-right)
+- Click Load unpacked
+- Select the folder containing extension files.
    Now the extension's logo should appear in the Chrome toolbar, showing live prayer times based on your location.
 
 
