@@ -9,14 +9,14 @@ Easy to install as a Chrome Extension
 
 ## Installation & Live Setup
 
-### 1.Clone the repository
+### 1. Clone the repository
 
   ```
 git clone https://github.com/FathimaShamila/Prayer_Times_Chrome_Extension.git
 cd prayer-times-extension
 ```
 
-### 2.Set up Python environment
+### 2. Set up Python environment
 
 Optional but recommended for Flask backend.
 
@@ -27,17 +27,17 @@ venv\Scripts\activate   #For Windows
 pip install -r reqiurements.txt
 ```
 
-### 3.Configure location and timezone
+### 3. Configure location and timezone
 
 
 
-### 4.Run the Flask backend
+### 4. Run the Flask backend
 
 python app.py
 - By default,Flask will run on https://127.0.1:5000/.
 - Open this in your browser to test that prayer times are calculated correctly.
 
-### 5.Load the extension in Chrome
+### 5. Load the extension in Chrome
 
 1. Open Chrome -> chrome://extensions/
 2. Enable Developer mode(top-right)
