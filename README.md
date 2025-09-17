@@ -18,6 +18,15 @@ cd prayer-times-extension
 
 ### 2.Set up Python environment
 
+Optional but recommended for Flask backend.
+
+```
+python -m venv venv
+source venv/bin/activate #For Mac/Linux
+venv\Scripts\activate   #For Windows
+pip install -r reqiurements.txt
+```
+
 ### 3.Configure location and timezone
 
 ### 4.Run the Flask backend
