@@ -3,7 +3,7 @@ A lightweight Chrome extension that displays daily prayer times based on your lo
 Built with HTML,CSS,JavaScript and Python(Flask) backend for dynamic calculation of prayer times.
 
 ## Features
-Shows daily prayer times (Fjr,Dhuhr,Asr,Maghrib,Isha) based on your location.
+Shows daily prayer times (Fajr,Dhuhr,Asr,Maghrib,Isha) based on your location.
 Clean,responsive and user-friendly interface
 Easy to install as a Chrome Extension
 
