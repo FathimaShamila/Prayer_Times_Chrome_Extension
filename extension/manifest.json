@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Prayer Times",
+    "version": "1.0",
+    "description": "Displays Islamic prayer times based on your location,",
+    "permissions": ["storage","geolocation","alarms","notifications"],
+    "host_permissions": ["http://localhost:5000/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/clock16.png",
+            "32": "icons/clock32.png",
+            "48": "icons/clock48.png",
+            "128": "icons/clock128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/clock16.png",
+        "32": "icons/clock32.png",
+        "48": "icons/clock48.png",
+        "128": "icons/clock128.png"
+        }
+}
