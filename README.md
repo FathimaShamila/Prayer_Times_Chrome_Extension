@@ -24,24 +24,27 @@ Optional but recommended for Flask backend.
 python -m venv venv
 source venv/bin/activate #For Mac/Linux
 venv\Scripts\activate   #For Windows
-pip install -r reqiurements.txt
+pip install -r requirements.txt
 ```
 
 ### 3. Configure location and timezone
-
+- By default, the backend uses Chicago(America/Chicago) for demonstration.
+- latitude,longitude and timezone can be updated in app.py
+- Alternatively,let the frontend use browser geolocation for automatic detection.
 
 
 ### 4. Run the Flask backend
 
 python app.py
-- By default,Flask will run on https://127.0.1:5000/.
+- Flask will run on https://127.0.1:5001/.
 - Open this in your browser to test that prayer times are calculated correctly.
+- JSON output with prayer times will be displayed.
 
 ### 5. Load the extension in Chrome
 
 -  Open Chrome -> chrome://extensions/
-- Enable Developer mode(top-right)
-- Click Load unpacked
+- Enable **Developer mode**(top-right)
+- Click **Load unpacked**
 - Select the folder containing extension files.
    Now the extension's logo should appear in the Chrome toolbar, showing live prayer times based on your location.
 
@@ -55,13 +58,13 @@ python app.py
 
 ### Customization
 
-- Location: Change the latitude,longitude or timezone in the backend.
+- Location: Change the latitude,longitude or timezone in app.py.
 - Styling: Modify style.css for colors,fonts or layout.
-- Icons: Replace icons in the assets folder.
+- Icons: Replace icons in the icons/ folder.
 
 ### Tech Stack
 - **Frontend**: HTML,CSS ,JavaScript,Jinja templates
-- **Backend**: Python Flask
+- **Backend**: Python(Flask)
 - **Browser**: Google Chrome 
 
 
