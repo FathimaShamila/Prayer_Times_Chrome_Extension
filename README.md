@@ -65,7 +65,7 @@ python app.py
 - Icons: Replace icons in the icons/ folder.
 
 ### Tech Stack
-- **Frontend**: HTML,CSS ,JavaScript,Jinja templates
+- **Frontend**: HTML,CSS ,JavaScript
 - **Backend**: Python(Flask)
 - **Browser**: Google Chrome 
 
