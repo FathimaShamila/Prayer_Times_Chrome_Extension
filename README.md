@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-- Flask will run on https://127.0.1:5001/.
+- Flask will run on https://127.0.1:5001/.(index.html will be displayed)
 - Open this in your browser to test that prayer times are calculated correctly.
 - JSON output with prayer times will be displayed.
 
