@@ -1,0 +1,11 @@
+body{
+    width: 250px;
+}
+
+.container{
+    max-width: 220px;
+}
+
+#error{
+    margin-top: 5px;
+}
